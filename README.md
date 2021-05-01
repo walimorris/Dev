@@ -1,3 +1,3 @@
 #Dev
 
-![Check out the demo!](demo.gif)
+![Check out the demo!](demo-initial.gif)
