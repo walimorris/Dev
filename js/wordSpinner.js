@@ -1,5 +1,4 @@
-// Set Spinner element and word array
-const spinnerElement = document.getElementById('word-spinner');
+// Set word array
 const words = ["DEVELOPER.", "CREATOR.", "THINKER.", "BUILDER."];
 
 /**
@@ -17,7 +16,7 @@ function WordSpinnerHelper(array, index) {
 }
 
 let spinnerHelper = new WordSpinnerHelper(words, 0);
-setInterval(function() {setWord(spinnerElement, spinnerHelper);}, 2000);
+setInterval(function() {setWord(spinnerHelper);}, 2000);
 
 /**
  * Sets new word to pass at interval by pulling the current word from the
@@ -25,9 +24,10 @@ setInterval(function() {setWord(spinnerElement, spinnerHelper);}, 2000);
  * @param spinnerEl The spinner element from DOM
  * @param spinnerHelper Object holding array
  */
-function setWord(spinnerEl, spinnerHelper) {
+function setWord(spinnerHelper) {
     let index = spinnerHelper.index;
-    spinnerEl.textContent = spin(spinnerHelper, spinnerHelper.array[index]);
+    let element = document.getElementById('word-spinner');
+    element.textContent = spin(spinnerHelper, spinnerHelper.array[index]);
 }
 
 /**

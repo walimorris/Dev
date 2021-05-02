@@ -1,0 +1,22 @@
+.footer-container {
+    margin: auto;
+    width: 50vw;
+    position: absolute;
+    padding-top: 10px;
+    bottom: 0;
+}
+
+footer {
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 50%;
+    bottom: 0;
+}
+
+footer a {
+    color:orange;
+    text-decoration: none;
+}
