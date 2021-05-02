@@ -4,37 +4,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.branding-container {
-    position: relative;
-}
-
-.initial-logo {
-    position: absolute;
-    left: -20px;
-    top: -20px;
-}
-
-.top-nav {
-    margin: auto;
-    overflow: auto;
-}
-
-.top-nav a {
-    float: right;
-    display: block;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 12px;
-    color: whitesmoke;
-}
-
-.top-nav a:hover, .active {
-    border: 3px solid whitesmoke;
-    line-height: 1px;
-}
-
 .active-word {
     color: whitesmoke;
 }
@@ -66,24 +35,3 @@ body {
     margin: auto;
     overflow: auto;
 }
-
-.footer-container {
-    margin: auto;
-    width: 50vw;
-    position: absolute;
-    bottom: 0;
-}
-
-footer {
-    width: 100%;
-    position: relative;
-    color: whitesmoke;
-    text-align: center;
-    margin-left: 50%;
-}
-
-footer a {
-    color:orange;
-    text-decoration: none;
-}
-
