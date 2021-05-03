@@ -1,0 +1,34 @@
+.eth-snippet {
+    text-align: center;
+}
+
+.magic-eth {
+    color: #ffffff;
+}
+
+.eth-data {
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+    outline: 2px dotted white;
+}
+
+.eth-block-number {
+    color: #ffffff;
+}
+
+.eth-block-hash {
+    color: #ffffff;
+}
+
+.eth-block-time {
+    color: #ffffff;
+}
+
+.eth-block-difficulty {
+    color: #ffffff;
+}
+
+.magic-price {
+    color: #ffffff;
+}
