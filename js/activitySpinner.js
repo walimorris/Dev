@@ -5,6 +5,8 @@ document.addEventListener('mouseover', (e) => {
     const topActivity = document.getElementById('plus-border-top');
     const midActivity = document.getElementById('plus-border-mid');
     const bottomActivity = document.getElementById('plus-border-bottom');
+    const ethImage = 'assets/eth2.0.png';
+    
     let currentTarget = e.target;
     switch (currentTarget.id) {
         case topActivity.id :
@@ -16,13 +18,13 @@ document.addEventListener('mouseover', (e) => {
         case bottomActivity.id :
             bottomActivity.style.border = '3px solid white';
             activityImage.style.border = 'none';
-            activityImage.src = 'assets/eth.jpg';
+            activityImage.src = ethImage;
             break;
         default :
-            topActivity.style.border = '';
-            midActivity.style.border = '';
-            bottomActivity.style.border = '';
-
+            topActivity.style.border = 'none';
+            midActivity.style.border = 'none';
+            bottomActivity.style.border = 'none';
+            break;
     }
 })
 

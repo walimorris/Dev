@@ -46,7 +46,6 @@ body {
 #active-image {
     width: 50%;
     float: right;
-    border: 5px solid white;
-    margin-top: -250px;
+    margin-top: -450px;
     margin-right: 25px;
 }
